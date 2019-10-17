@@ -14,17 +14,24 @@ namespace RequerimientoWeb
             if (!IsPostBack)
             {
                 txtNro1.Text = "0";
-                ViewState["guarda"] = 0;
+                Session["guarda"] = 0;
             }
             
         }
         int x = 0;
         protected void btnNro1_Click(object sender, EventArgs e)
         {
-            
+            //variable de estado
+            /*
             x=(int)ViewState["guarda"]+1;
             txtNro1.Text = x.ToString();
             ViewState["guarda"] = x;
+            */
+
+            //variable de sesión
+            x = (int)Session["guarda"] + 1;
+            txtNro1.Text = x.ToString();
+            Session["guarda"] = x;
         }
     }
 }

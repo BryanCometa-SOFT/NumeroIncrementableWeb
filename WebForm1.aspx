@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FormNumeroVariable.aspx.cs" Inherits="RequerimientoWeb.FormNumeroVariable" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="RequerimientoWeb.FormNumeroVariable" %>
 
 <!DOCTYPE html>
 
