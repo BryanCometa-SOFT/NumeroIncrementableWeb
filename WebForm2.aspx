@@ -12,6 +12,7 @@
         <div>
             <asp:TextBox ID="txtNro1" runat="server"></asp:TextBox>
             <asp:Button ID="btnNro1" runat="server" Text="Incrementar" OnClick="btnNro1_Click" />
+            <asp:Button ID="btnNro2" runat="server" Text="Abrir Form1" PostBackUrl="~/WebForm1.aspx" />
         </div>
     </form>
 </body>
